@@ -1,0 +1,28 @@
+{
+    "authHost": "https://85-159-209-35.ip.linodeusercontent.com",
+    "authEndpoint": "/broadcasting/auth",
+    "clients": [],
+    "database": "redis",
+    "databaseConfig": {
+        "redis": {}
+    },
+    "devMode": true,
+    "host": "85-159-209-35.ip.linodeusercontent.com",
+    "port": 6001,
+    "protocol": "https",
+    "socketio": {},
+    "sslCertPath": "/etc/letsencrypt/live/85-159-209-35.ip.linodeusercontent.com/fullchain.pem",
+    "sslKeyPath": "/etc/letsencrypt/live/85-159-209-35.ip.linodeusercontent.com/privkey.pem",
+    "sslCertChainPath": "",
+    "sslPassphrase": "",
+    "subscribers": {
+        "http": true,
+        "redis": true
+    },
+    "apiOriginAllow": {
+        "allowCors": true,
+        "allowOrigin": "*",
+        "allowMethods": "GET, POST",
+        "allowHeaders": "Origin, Content-Type, X-Auth-Token, Authorization, Accept, X-Requested-With"
+    }
+}
